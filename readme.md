@@ -2,7 +2,7 @@
 
 Tools, frameworks, and resources for implementing compliance, security, and governance controls in Terraform and OpenTofu infrastructure.
 
-Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terraform-aws-modules](https://github.com/terraform-aws-modules) and [compliance.tf](https://compliance.tf).
+Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terraform-aws-modules](https://github.com/terraform-aws-modules) and [weekly.tf](https://weekly.tf).
 
 ## Contents
 
@@ -24,7 +24,7 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
   - [Multi-Cloud](#multi-cloud)
 - [Compliance Frameworks and Standards](#compliance-frameworks-and-standards)
   - [CIS Benchmarks](#cis-benchmarks)
-  - [SOC 2 and HIPAA](#soc-2-and-hipaa)
+  - [SOC 2](#soc-2)
   - [PCI DSS](#pci-dss)
   - [NIST and FedRAMP](#nist-and-fedramp)
   - [ISO 27001](#iso-27001)
@@ -92,7 +92,7 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 *Tools for writing automated tests that verify Terraform modules meet compliance and correctness requirements.*
 
 - [Terratest](https://terratest.gruntwork.io/) - Go library for writing integration tests for Terraform modules, deploying real infrastructure and running assertions against it.
-- [terraform test](https://developer.hashicorp.com/terraform/language/tests) - Built-in Terraform 1.6+ testing command for writing unit and integration tests in `.tftest.hcl` files without external dependencies.
+- [Terraform test](https://developer.hashicorp.com/terraform/language/tests) - Built-in Terraform 1.6+ testing command for writing unit and integration tests in `.tftest.hcl` files without external dependencies.
 
 ### Intentionally Vulnerable Terraform
 
@@ -154,16 +154,17 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 
 *Resources mapping compliance framework requirements to Terraform infrastructure controls.*
 
+- [AWS Audit Manager Framework Library](https://docs.aws.amazon.com/audit-manager/latest/userguide/framework-overviews.html) - Overview of all compliance frameworks supported by AWS Audit Manager, covering SOC 2, PCI DSS, HIPAA, ISO 27001, NIST 800-53, FedRAMP, GDPR, and more with AWS-native evidence collection. ⚠️
+
 ### CIS Benchmarks
 
 - [CIS AWS Foundations Benchmark](https://www.cisecurity.org/benchmark/amazon_web_services) - Center for Internet Security benchmark for AWS with Terraform-implementable controls.
 - [CIS Azure Foundations Benchmark](https://www.cisecurity.org/benchmark/azure) - CIS benchmark for Azure covering identity, networking, logging, and monitoring controls.
 - [CIS GCP Foundations Benchmark](https://www.cisecurity.org/benchmark/google_cloud_computing_platform) - CIS benchmark for Google Cloud Platform deployments.
 
-### SOC 2 and HIPAA
+### SOC 2
 
 - [SOC 2 Compliance Mapping for Terraform](https://compliance.tf/docs/frameworks/aws/soc_2/) - Mapping of SOC 2 Trust Services Criteria to Terraform resource configurations and controls. 💲
-- [HIPAA on AWS with Terraform](https://docs.aws.amazon.com/whitepapers/latest/architecting-hipaa-security-and-compliance-on-aws/welcome.html) - AWS reference architecture for HIPAA-eligible services deployable via Terraform.
 
 ### PCI DSS
 
@@ -171,7 +172,7 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 
 ### NIST and FedRAMP
 
-- [NIST SP 800-53 Controls](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final) - Security and privacy control catalog (1,000+ controls) with Terraform-implementable implementation guidance. 🏛️
+- [NIST SP 800-53 Controls](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final) - Security and privacy control catalog (1,000+ controls) used as the baseline for FedRAMP, FISMA, and CMMC. Controls map to cloud resource configurations but the document itself is framework-only, not Terraform-specific. 🏛️
 - [OSCAL (Open Security Controls Assessment Language)](https://pages.nist.gov/OSCAL/) - Machine-readable compliance format by NIST for expressing security control implementations. 🏛️
 - [FedRAMP Authorization Boundary Guidance](https://demo.fedramp.gov/resources/documents/CSP_A_FedRAMP_Authorization_Boundary_Guidance.pdf) - FedRAMP guidance on defining cloud system boundaries, directly relevant to scoping Terraform-managed infrastructure for federal authorization. 🏛️
 
@@ -230,6 +231,7 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 - [Spacelift](https://spacelift.io/) - Terraform and OpenTofu automation platform with built-in OPA policy evaluation on plans, drift detection, and custom policy frameworks. 💲 🆓
 - [env0](https://www.env0.com/) - Terraform and OpenTofu automation platform with OPA and Checkov policy integration, cost governance, and environment lifecycle management. 💲 🆓
 - [Scalr](https://www.scalr.com/) - Terraform automation platform with OPA policy enforcement and hierarchical policy inheritance across organizations, accounts, and environments. 💲 🆓
+- [Terrateam](https://terrateam.io/) - GitOps-based Terraform and OpenTofu automation via GitHub and GitLab pull requests, with OPA policy enforcement, drift detection, and access controls. 💲 🆓
 
 ## CI/CD and Platform Integration
 
@@ -237,7 +239,7 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 
 - [Terraform Cloud Run Tasks](https://developer.hashicorp.com/terraform/cloud-docs/integrations/run-tasks) - Integration point for adding compliance checks to Terraform Cloud/Enterprise runs.
 - [Atlantis](https://www.runatlantis.io/) - Self-hosted Terraform pull request automation with pre-apply policy check hooks.
-- [Pre-commit Terraform](https://github.com/antonbabenko/pre-commit-terraform) - Collection of git pre-commit hooks for Terraform including linting, validation, and security scanning.
+- [Pre-commit Terraform](https://github.com/antonbabenko/pre-commit-terraform) - Collection of Git pre-commit hooks for Terraform including linting, validation, and security scanning.
 - [trunk.io](https://trunk.io/) - Developer tooling platform with Terraform linter orchestration including Checkov, tflint, and Trivy. 💲 🆓
 - [Cloud Security Plugin](https://github.com/NordCoderd/cloud-security-plugin) - JetBrains IDE plugin (IntelliJ, PyCharm, etc.) for IaC security scanning including Terraform, enabling shift-left detection in the editor.
 
