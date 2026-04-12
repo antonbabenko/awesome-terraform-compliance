@@ -2,7 +2,7 @@
 
 Tools, frameworks, and resources for implementing compliance, security, and governance controls in Terraform and OpenTofu infrastructure.
 
-Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terraform-aws-modules](https://github.com/terraform-aws-modules) and [weekly.tf](https://weekly.tf).
+Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terraform-aws-modules](https://github.com/terraform-aws-modules) and [a few other Terraform projects](https://github.com/antonbabenko/terraform-aws-devops).
 
 ## Contents
 
