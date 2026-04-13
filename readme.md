@@ -1,4 +1,4 @@
-# Awesome Terraform Compliance [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Terraform Compliance [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
 
 Tools, frameworks, and resources for implementing compliance, security, and governance controls in Terraform and OpenTofu infrastructure.
 
@@ -27,7 +27,6 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
   - [SOC 2](#soc-2)
   - [PCI DSS](#pci-dss)
   - [NIST and FedRAMP](#nist-and-fedramp)
-  - [ISO 27001](#iso-27001)
 - [Evidence and Audit](#evidence-and-audit)
   - [OSCAL Tooling](#oscal-tooling)
   - [Evidence Generation](#evidence-generation)
@@ -117,7 +116,7 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 
 ### GCP
 
-- [Google Cloud Foundation Toolkit](https://cloud.google.com/docs/terraform/blueprints/terraform-blueprints) - Google-maintained Terraform blueprints for secure GCP deployments with organizational policy compliance.
+- [Google Cloud Foundation Toolkit](https://docs.cloud.google.com/docs/terraform/blueprints/terraform-blueprints) - Google-maintained Terraform blueprints for secure GCP deployments with organizational policy compliance.
 - [Secure Cloud Foundation](https://github.com/GoogleCloudPlatform/pbmm-on-gcp-onboarding) - Protected B/Medium/Medium GCP landing zone with Canadian government compliance patterns. 🏛️
 
 ## Cloud Provider Compliance Tools
@@ -136,12 +135,12 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 ### Azure
 
 - [Azure Policy](https://learn.microsoft.com/en-us/azure/governance/policy/) - Policy enforcement service for Azure resources with built-in compliance definitions deployable via Terraform.
-- [Microsoft Defender for Cloud](https://azure.microsoft.com/en-us/products/defender-for-cloud/) - Cloud security posture management configurable via Terraform (`azurerm_security_center_*` resources) with regulatory compliance dashboards for CIS, PCI DSS, ISO 27001, and SOC 2. 💲
+- [Microsoft Defender for Cloud](https://www.microsoft.com/en-us/security/business/cloud-security/microsoft-defender-cloud/) - Cloud security posture management configurable via Terraform (`azurerm_security_center_*` resources) with regulatory compliance dashboards for CIS, PCI DSS, ISO 27001, and SOC 2. 💲
 
 ### GCP
 
-- [GCP Organization Policy](https://cloud.google.com/resource-manager/docs/organization-policy/overview) - Centralized policy constraints for GCP organizations manageable via Terraform.
-- [Security Command Center](https://cloud.google.com/security-command-center) - GCP security findings and compliance monitoring platform, with notification configs and source management via `google_scc_*` Terraform resources. 💲
+- [GCP Organization Policy](https://docs.cloud.google.com/organization-policy/overview) - Centralized policy constraints for GCP organizations manageable via Terraform.
+- [Security Command Center](https://cloud.google.com/security/products/security-command-center) - GCP security findings and compliance monitoring platform, with notification configs and source management via `google_scc_*` Terraform resources. 💲
 
 ### Multi-Cloud
 
@@ -172,13 +171,9 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 
 ### NIST and FedRAMP
 
-- [NIST SP 800-53 Controls](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final) - Security and privacy control catalog (1,000+ controls) used as the baseline for FedRAMP, FISMA, and CMMC. Controls map to cloud resource configurations but the document itself is framework-only, not Terraform-specific. 🏛️
+- [NIST SP 800-53 Controls](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) - Security and privacy control catalog (1,000+ controls) used as the baseline for FedRAMP, FISMA, and CMMC. Controls map to cloud resource configurations but the document itself is framework-only, not Terraform-specific. 🏛️
 - [OSCAL (Open Security Controls Assessment Language)](https://pages.nist.gov/OSCAL/) - Machine-readable compliance format by NIST for expressing security control implementations. 🏛️
 - [FedRAMP Authorization Boundary Guidance](https://demo.fedramp.gov/resources/documents/CSP_A_FedRAMP_Authorization_Boundary_Guidance.pdf) - FedRAMP guidance on defining cloud system boundaries, directly relevant to scoping Terraform-managed infrastructure for federal authorization. 🏛️
-
-### ISO 27001
-
-- [ISO 27001 Mapping to AWS](https://docs.aws.amazon.com/audit-manager/latest/userguide/ISO-27001.html) - AWS Audit Manager framework mapping ISO 27001:2022 controls to AWS service configurations.
 
 ## Evidence and Audit
 
@@ -197,7 +192,7 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 
 ### Drift Detection
 
-- [Driftctl](https://driftctl.com/) - Detect infrastructure drift between Terraform state and actual cloud resource configurations. ⚠️
+- [Driftctl](https://snyk.io/) - Detect infrastructure drift between Terraform state and actual cloud resource configurations. ⚠️
 - [Digger](https://digger.dev/) - Open-source Terraform CI/CD with drift detection capabilities.
 - [cloud-concierge](https://github.com/dragondrop-cloud/cloud-concierge) - Open-source tool that surfaces infrastructure drift, security findings, and cost estimates as pull requests against your Terraform codebase.
 
@@ -230,7 +225,7 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 - [HCP Terraform and Terraform Enterprise](https://developer.hashicorp.com/terraform/cloud-docs) - HashiCorp's Terraform execution platform with native Sentinel and OPA policy enforcement on runs, audit logging, and team access controls, available as cloud-hosted (HCP Terraform) or self-hosted (Terraform Enterprise). 💲 🆓
 - [Spacelift](https://spacelift.io/) - Terraform and OpenTofu automation platform with built-in OPA policy evaluation on plans, drift detection, and custom policy frameworks. 💲 🆓
 - [env0](https://www.env0.com/) - Terraform and OpenTofu automation platform with OPA and Checkov policy integration, cost governance, and environment lifecycle management. 💲 🆓
-- [Scalr](https://www.scalr.com/) - Terraform automation platform with OPA policy enforcement and hierarchical policy inheritance across organizations, accounts, and environments. 💲 🆓
+- [Scalr](https://scalr.com/) - Terraform automation platform with OPA policy enforcement and hierarchical policy inheritance across organizations, accounts, and environments. 💲 🆓
 - [Terrateam](https://terrateam.io/) - GitOps-based Terraform and OpenTofu automation via GitHub and GitLab pull requests, with OPA policy enforcement, drift detection, and access controls. 💲 🆓
 
 ## CI/CD and Platform Integration
@@ -275,7 +270,7 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 
 ### Newsletters
 
-- [weekly.tf](https://weekly.tf/) - Weekly newsletter covering Terraform, OpenTofu, and infrastructure-as-code ecosystem news.
+- [weekly.tf](https://www.weekly.tf/) - Weekly newsletter covering Terraform, OpenTofu, and infrastructure-as-code ecosystem news.
 - [tl;dr sec](https://tldrsec.com/) - Weekly newsletter covering security tooling, policy, and compliance engineering.
 - [CloudSecList](https://cloudseclist.com/) - Curated cloud security newsletter covering IaC security, CSPM, and compliance tools.
 
@@ -283,7 +278,7 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 
 - [awesome-tf](https://github.com/shuaibiyy/awesome-tf) - Curated Terraform and OpenTofu resources.
 - [awesome-cloud-security](https://github.com/4ndersonLin/awesome-cloud-security) - Cloud security resources across AWS, Azure, and GCP.
-- [awesome-devsecops](https://github.com/TaptuIT/awesome-devsecops) - DevSecOps tools and resources including IaC security.
+- [awesome-devsecops](https://github.com/JakobTheDev/awesome-devsecops) - DevSecOps tools and resources including IaC security.
 - [awesome-opa](https://github.com/open-policy-agent/awesome-opa) - Open Policy Agent tools, frameworks, and articles.
 - [awesome-oscal](https://github.com/oscal-club/awesome-oscal) - OSCAL ecosystem tools and resources.
 
