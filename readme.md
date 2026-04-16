@@ -227,7 +227,7 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 - [env0](https://www.env0.com/) - Terraform and OpenTofu automation platform with OPA and Checkov policy integration, cost governance, and environment lifecycle management. 💲 🆓
 - [Scalr](https://scalr.com/) - Terraform automation platform with OPA policy enforcement and hierarchical policy inheritance across organizations, accounts, and environments. 💲 🆓
 - [Terrateam](https://terrateam.io/) - GitOps-based Terraform and OpenTofu automation via GitHub and GitLab pull requests, with OPA policy enforcement, drift detection, and access controls. 💲 🆓
-- [ops0](https://ops0.com) - Cloud governance platform for Terraform, OpenTofu, Cloudformation and Oxid combining OPA, Kyverno and Checkov policy checks, drift detection, IaC incident management, IaC as a database, and FinOps, with compliance reporting mapped to ISO 27001, SOC 2, NIST, and CIS benchmarks. 💲 🆓
+- [ops0](https://ops0.com/) - Governance platform for Terraform, OpenTofu, and Oxid with OPA and Checkov policy checks, drift detection, IaC incident management, SQL-queryable IaC state (PostgresDB), and FinOps, mapped to 27+ frameworks including SOC 2, ISO 27001, HIPAA, PCI DSS, NIST, and CIS. 💲 🆓
 
 ## CI/CD and Platform Integration
 
