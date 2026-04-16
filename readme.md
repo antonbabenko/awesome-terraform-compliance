@@ -191,7 +191,7 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 
 - [Drata](https://drata.com/) - Compliance automation platform with infrastructure evidence collection including Terraform state integration. 💲
 - [RegScale](https://regscale.com/) - Continuous compliance automation platform with OSCAL-native evidence management. 💲
-- [Yor](https://github.com/bridgecrewio/yor) - Automated IaC tagging tool that applies git metadata, trace identifiers, and custom tags to Terraform resources for audit trail and ownership tracking.
+- [Yor](https://github.com/bridgecrewio/yor) - Automated IaC tagging tool that applies Git metadata, trace identifiers, and custom tags to Terraform resources for audit trail and ownership tracking.
 
 ### Drift Detection
 
