@@ -235,6 +235,7 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 - [Terrakube](https://docs.terrakube.io) - Open-source Terraform automation platform with custom workflow definitions, identity provider integration via DEX, and pluggable compliance tool hooks.
 - [Terrapod](https://github.com/mattrobinsonsre/terrapod) - Open-source, self-hosted Terraform and OpenTofu automation platform with governance controls, drift detection, RBAC, and HCP Terraform API compatibility.
 - [ops0](https://ops0.com/) - Governance-first Terraform and OpenTofu platform with OPA and Checkov policy enforcement, drift detection, and compliance mapping to 27+ frameworks including SOC 2, HIPAA, PCI DSS, and CIS. 💲 🆓
+- [StackGuardian](https://stackguardian.io/) - Infrastructure codification and orchestration platform that converts existing cloud resources into IaC, featuring policy-driven workflows with Tirith, OPA, and Checkov, with support for private runtimes and no-code templates. 💲 🆓
 
 ## CI/CD and Platform Integration
 
