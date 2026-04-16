@@ -85,6 +85,7 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 - [tflint](https://github.com/terraform-linters/tflint) - Pluggable Terraform linter with AWS, Azure, and GCP rulesets for detecting errors and enforcing best practices.
 - [CloudFormation Guard (cfn-guard)](https://github.com/aws-cloudformation/cloudformation-guard) - Policy-as-code DSL from AWS for writing rules that validate JSON and YAML data, including Terraform plan JSON and HCL configurations.
 - [Tirith](https://github.com/StackGuardian/tirith) - Policy framework for Terraform stacks that evaluates infrastructure configurations against compliance policies defined in JSON.
+- [pike](https://github.com/jamesWoolfenden/pike) - Scans Terraform and OpenTofu code to calculate the minimum IAM permissions required for deployment across AWS, GCP, and Azure.
 
 ### Terraform Testing
 
@@ -131,6 +132,7 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 - [AWS Control Tower](https://aws.amazon.com/controltower/) - Managed landing zone service with SCPs and Config rules as guardrails for multi-account AWS environments, configurable via Terraform.
 - [AWS Service Control Policies](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html) - Preventive governance policies at the AWS Organizations level, deployable via Terraform to enforce compliance boundaries across all accounts.
 - [AWS Control Tower Controls with Terraform](https://github.com/aws-samples/aws-control-tower-controls-terraform) - Official AWS sample showing how to implement and administer preventive, detective, and proactive Control Tower guardrails via Terraform IaC.
+- [terraform-iam-policy-validator](https://github.com/awslabs/terraform-iam-policy-validator) - AWS CLI tool that validates IAM policies in Terraform plan JSON against best practices using IAM Access Analyzer checks.
 
 ### Azure
 
@@ -189,12 +191,14 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 
 - [Drata](https://drata.com/) - Compliance automation platform with infrastructure evidence collection including Terraform state integration. 💲
 - [RegScale](https://regscale.com/) - Continuous compliance automation platform with OSCAL-native evidence management. 💲
+- [Yor](https://github.com/bridgecrewio/yor) - Automated IaC tagging tool that applies Git metadata, trace identifiers, and custom tags to Terraform resources for audit trail and ownership tracking.
 
 ### Drift Detection
 
 - [Driftctl](https://snyk.io/) - Detect infrastructure drift between Terraform state and actual cloud resource configurations. ⚠️
 - [Digger](https://digger.dev/) - Open-source Terraform CI/CD with drift detection capabilities.
 - [cloud-concierge](https://github.com/dragondrop-cloud/cloud-concierge) - Open-source tool that surfaces infrastructure drift, security findings, and cost estimates as pull requests against your Terraform codebase.
+- [DriftHound](https://github.com/treezio/drifthound) - Receives Terraform drift reports via API and provides a web dashboard with historical tracking, analytics, and Slack notifications.
 
 ## Policy Libraries and Rulesets
 
@@ -227,6 +231,9 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 - [env0](https://www.env0.com/) - Terraform and OpenTofu automation platform with OPA and Checkov policy integration, cost governance, and environment lifecycle management. 💲 🆓
 - [Scalr](https://scalr.com/) - Terraform automation platform with OPA policy enforcement and hierarchical policy inheritance across organizations, accounts, and environments. 💲 🆓
 - [Terrateam](https://terrateam.io/) - GitOps-based Terraform and OpenTofu automation via GitHub and GitLab pull requests, with OPA policy enforcement, drift detection, and access controls. 💲 🆓
+- [OTF](https://github.com/leg100/otf) - Open-source alternative to Terraform Enterprise with SSO, team management, and agent support, no per-resource pricing.
+- [Terrakube](https://docs.terrakube.io) - Open-source Terraform automation platform with custom workflow definitions, identity provider integration via DEX, and pluggable compliance tool hooks.
+- [Terrapod](https://github.com/mattrobinsonsre/terrapod) - Open-source, self-hosted Terraform and OpenTofu automation platform with governance controls, drift detection, RBAC, and HCP Terraform API compatibility.
 - [ops0](https://ops0.com/) - Governance-first Terraform and OpenTofu platform with OPA and Checkov policy enforcement, drift detection, and compliance mapping to 27+ frameworks including SOC 2, HIPAA, PCI DSS, and CIS. 💲 🆓
 
 ## CI/CD and Platform Integration

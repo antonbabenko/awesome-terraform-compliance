@@ -1,0 +1,16 @@
+repos:
+  - repo: https://github.com/lycheeverse/lychee
+    rev: lychee-v0.23.0
+    hooks:
+      - id: lychee
+        args: ["--no-progress", "readme.md"]
+        pass_filenames: false
+
+  - repo: local
+    hooks:
+      - id: awesome-lint
+        name: awesome-lint
+        language: system
+        entry: bash -c 'out=$(npm exec -- awesome-lint 2>&1); rc=$?; if [ $rc -ne 0 ]; then real_errors=$(echo "$out" | grep "remark-lint:" | grep -v "awesome-github"); if [ -n "$real_errors" ]; then echo "$out"; exit 1; fi; fi'
+        files: ^readme\.md$
+        pass_filenames: false
