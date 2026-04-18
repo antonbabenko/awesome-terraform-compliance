@@ -19,6 +19,7 @@ exclude = [
   "^https://medium\\.com/.*",
   "^https://steampipe\\.io/.*",
   "^https://academy\\.styra\\.com/.*",
+  "^https://drata\\.com/.*",
 ]
 
 # Alternative: Exclude hashicorp.com if rate limiting persists
