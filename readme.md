@@ -119,6 +119,7 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 
 - [Google Cloud Foundation Toolkit](https://docs.cloud.google.com/docs/terraform/blueprints/terraform-blueprints) - Google-maintained Terraform blueprints for secure GCP deployments with organizational policy compliance.
 - [Secure Cloud Foundation](https://github.com/GoogleCloudPlatform/pbmm-on-gcp-onboarding) - Protected B/Medium/Medium GCP landing zone with Canadian government compliance patterns. 🏛️
+- [GCP Hardening Toolkit (GHT)](https://github.com/GoogleCloudPlatform/gcp-hardening-toolkit) - Google-maintained Terraform modules and blueprints for incrementally hardening brownfield GCP environments, with custom IAM role generation and organization policy constraints.
 
 ## Cloud Provider Compliance Tools
 
@@ -199,6 +200,8 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 - [Digger](https://digger.dev/) - Open-source Terraform CI/CD with drift detection capabilities.
 - [cloud-concierge](https://github.com/dragondrop-cloud/cloud-concierge) - Open-source tool that surfaces infrastructure drift, security findings, and cost estimates as pull requests against your Terraform codebase.
 - [DriftHound](https://github.com/treezio/drifthound) - Receives Terraform drift reports via API and provides a web dashboard with historical tracking, analytics, and Slack notifications.
+- [atlantis-drift-detection](https://github.com/cresta/atlantis-drift-detection) - Runs Atlantis-driven `terraform plan` across every project in an `atlantis.yaml` monorepo, reports drift and untracked workspaces to Slack, and optionally triggers remediation workflows.
+- [tfe-drift](https://github.com/slok/tfe-drift) - Automates drift-detection plans across Terraform Cloud and Terraform Enterprise workspaces with rate limiting, Prometheus metrics, and a ready-to-use GitHub Action.
 
 ## Policy Libraries and Rulesets
 
@@ -210,6 +213,7 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 - [Fugue Regula Rules](https://github.com/fugue/regula) - Library of OPA/Rego rules for Terraform covering CIS benchmarks and custom compliance checks. ⚠️
 - [Regal](https://docs.styra.com/regal) - Linter for Rego policies with 50+ built-in rules covering correctness, style, and performance. Catches bugs and anti-patterns before policies reach production.
 - [tflint-ruleset-opa](https://github.com/terraform-linters/tflint-ruleset-opa) - TFLint plugin for writing custom compliance rules in Rego, bridging tflint's Terraform-native linting with OPA policy evaluation.
+- [Prancer Compliance Test](https://github.com/prancer-io/prancer-compliance-test) - Rego policy library with a dedicated `terraform/` ruleset for IaC scanning alongside AWS, Azure, GCP, and Kubernetes policies, designed for OPA and the Prancer platform. 💲 🆓
 
 ### Sentinel Libraries
 
@@ -236,6 +240,7 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 - [Terrakube](https://docs.terrakube.io) - Open-source Terraform automation platform with custom workflow definitions, identity provider integration via DEX, and pluggable compliance tool hooks.
 - [Terrapod](https://github.com/mattrobinsonsre/terrapod) - Open-source, self-hosted Terraform and OpenTofu automation platform with governance controls, drift detection, RBAC, and HCP Terraform API compatibility.
 - [ops0](https://ops0.com/) - Governance-first Terraform and OpenTofu platform with OPA and Checkov policy enforcement, drift detection, and compliance mapping to 27+ frameworks including SOC 2, HIPAA, PCI DSS, and CIS. 💲 🆓
+- [Terramate](https://terramate.io/) - Open-source IaC orchestration and code generation engine for Terraform, OpenTofu, and Terragrunt stacks with change detection, policy hooks, and graph-based run ordering. Optional Terramate Cloud adds drift detection, observability, and misconfiguration reporting. 💲 🆓
 
 ## CI/CD and Platform Integration
 

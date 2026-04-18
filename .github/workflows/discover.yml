@@ -13,6 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v6
       - name: Search GitHub for new repos
+        id: search
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -46,8 +47,11 @@ jobs:
             echo "" >> /tmp/discoveries.md
           done
 
+          COUNT=$(grep -c '^- \[' /tmp/discoveries.md || true)
+          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+
       - name: Create issue if discoveries found
-        if: success()
+        if: success() && steps.search.outputs.count != '0'
         uses: peter-evans/create-issue-from-file@v6
         with:
           title: "Weekly Discovery: New repos ($(date +%Y-%m-%d))"
