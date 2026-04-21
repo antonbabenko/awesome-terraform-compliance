@@ -133,6 +133,7 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 - [AWS Control Tower](https://aws.amazon.com/controltower/) - Managed landing zone service with SCPs and Config rules as guardrails for multi-account AWS environments, configurable via Terraform.
 - [AWS Service Control Policies](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html) - Preventive governance policies at the AWS Organizations level, deployable via Terraform to enforce compliance boundaries across all accounts.
 - [AWS Control Tower Controls with Terraform](https://github.com/aws-samples/aws-control-tower-controls-terraform) - Official AWS sample showing how to implement and administer preventive, detective, and proactive Control Tower guardrails via Terraform IaC.
+- [deny.cloud](https://deny.cloud/) - Web-based builder for AWS Service Control Policies and Resource Control Policies with 150 pre-built templates mapped to CIS, PCI DSS, SOC 2, and HIPAA, exporting ready-to-apply Terraform HCL.
 - [terraform-iam-policy-validator](https://github.com/awslabs/terraform-iam-policy-validator) - AWS CLI tool that validates IAM policies in Terraform plan JSON against best practices using IAM Access Analyzer checks.
 
 ### Azure
