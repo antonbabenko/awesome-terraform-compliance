@@ -193,6 +193,7 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 - [Drata](https://drata.com/) - Compliance automation platform with infrastructure evidence collection including Terraform state integration. 💲
 - [RegScale](https://regscale.com/) - Continuous compliance automation platform with OSCAL-native evidence management. 💲
 - [Yor](https://github.com/bridgecrewio/yor) - Automated IaC tagging tool that applies Git metadata, trace identifiers, and custom tags to Terraform resources for audit trail and ownership tracking.
+- [mapotf](https://github.com/Azure/mapotf) - Meta-programming tool for Terraform that matches and transforms HCL blocks, letting module authors inject governance patterns such as `ignore_changes` rules and private-endpoint wrappers across existing modules.
 
 ### Drift Detection
 
@@ -249,6 +250,7 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 - [Terraform Cloud Run Tasks](https://developer.hashicorp.com/terraform/cloud-docs/integrations/run-tasks) - Integration point for adding compliance checks to Terraform Cloud/Enterprise runs.
 - [Atlantis](https://www.runatlantis.io/) - Self-hosted Terraform pull request automation with pre-apply policy check hooks.
 - [Pre-commit Terraform](https://github.com/antonbabenko/pre-commit-terraform) - Collection of Git pre-commit hooks for Terraform including linting, validation, and security scanning.
+- [grept](https://github.com/Azure/grept) - Extensible repository linter with HCL-defined rules and a plan/apply workflow, used by Azure Verified Modules to enforce license, file-structure, and content standards across Terraform module repos.
 - [trunk.io](https://trunk.io/) - Developer tooling platform with Terraform linter orchestration including Checkov, tflint, and Trivy. 💲 🆓
 - [Cloud Security Plugin](https://github.com/NordCoderd/cloud-security-plugin) - JetBrains IDE plugin (IntelliJ, PyCharm, etc.) for IaC security scanning including Terraform, enabling shift-left detection in the editor.
 
@@ -276,6 +278,7 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 
 - [Terraform: Up & Running](https://www.terraformupandrunning.com/) - Yevgeniy Brikman's Terraform guide covering modules, testing, production patterns, and team workflows.
 - [Infrastructure as Code](https://infrastructure-as-code.com/) - Kief Morris' guide to managing infrastructure with automation covering compliance and governance patterns.
+- [The `Dao` of Terraform Modules](https://lonegunmanb.github.io/dao-of-terraform-modules-book-english/) - Free online book on Terraform module design, governance, and toolchain, by a core Azure Verified Modules developer, covering Checkov, Conftest, Trivy, grept, mapotf, tflint, and yor.
 
 ### Courses
 
