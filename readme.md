@@ -248,12 +248,13 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 
 *Tools and patterns for integrating Terraform compliance checks into deployment pipelines.*
 
-- [Terraform Cloud Run Tasks](https://developer.hashicorp.com/terraform/cloud-docs/integrations/run-tasks) - Integration point for adding compliance checks to Terraform Cloud/Enterprise runs.
 - [Atlantis](https://www.runatlantis.io/) - Self-hosted Terraform pull request automation with pre-apply policy check hooks.
-- [Pre-commit Terraform](https://github.com/antonbabenko/pre-commit-terraform) - Collection of Git pre-commit hooks for Terraform including linting, validation, and security scanning.
-- [grept](https://github.com/Azure/grept) - Extensible repository linter with HCL-defined rules and a plan/apply workflow, used by Azure Verified Modules to enforce license, file-structure, and content standards across Terraform module repos.
-- [trunk.io](https://trunk.io/) - Developer tooling platform with Terraform linter orchestration including Checkov, tflint, and Trivy. 💲 🆓
 - [Cloud Security Plugin](https://github.com/NordCoderd/cloud-security-plugin) - JetBrains IDE plugin (IntelliJ, PyCharm, etc.) for IaC security scanning including Terraform, enabling shift-left detection in the editor.
+- [grept](https://github.com/Azure/grept) - Extensible repository linter with HCL-defined rules and a plan/apply workflow, used by Azure Verified Modules to enforce license, file-structure, and content standards across Terraform module repos.
+- [Pre-commit Terraform](https://github.com/antonbabenko/pre-commit-terraform) - Collection of Git pre-commit hooks for Terraform including linting, validation, and security scanning.
+- [Terraform Cloud Run Tasks](https://developer.hashicorp.com/terraform/cloud-docs/integrations/run-tasks) - Integration point for adding compliance checks to Terraform Cloud/Enterprise runs.
+- [terraform-risk-accessor](https://github.com/Liam-Johnston/terraform-risk-accessor) - GitHub Action that analyzes Terraform plan JSON and comments risk levels on pull requests.
+- [trunk.io](https://trunk.io/) - Developer tooling platform with Terraform linter orchestration including Checkov, tflint, and Trivy. 💲 🆓
 
 ## Learning Resources
 
