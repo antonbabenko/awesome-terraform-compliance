@@ -254,6 +254,7 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 - [grept](https://github.com/Azure/grept) - Extensible repository linter with HCL-defined rules and a plan/apply workflow, used by Azure Verified Modules to enforce license, file-structure, and content standards across Terraform module repos.
 - [trunk.io](https://trunk.io/) - Developer tooling platform with Terraform linter orchestration including Checkov, tflint, and Trivy. 💲 🆓
 - [Cloud Security Plugin](https://github.com/NordCoderd/cloud-security-plugin) - JetBrains IDE plugin (IntelliJ, PyCharm, etc.) for IaC security scanning including Terraform, enabling shift-left detection in the editor.
+- [Terraform Risk Assessor](https://github.com/Liam-Johnston/terraform-risk-assessor) - GitHub Action that analyses Terraform plan JSON and comments risk levels on pull requests.
 
 ## Learning Resources
 
