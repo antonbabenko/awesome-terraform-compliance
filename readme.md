@@ -213,7 +213,7 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 
 - [Conftest](https://www.conftest.dev/) - Utility for writing tests against structured configuration data using OPA/Rego, widely used for Terraform plan validation.
 - [Fugue Regula Rules](https://github.com/fugue/regula) - Library of OPA/Rego rules for Terraform covering CIS benchmarks and custom compliance checks. ⚠️
-- [Regal](https://docs.styra.com/regal) - Linter for Rego policies with 50+ built-in rules covering correctness, style, and performance. Catches bugs and anti-patterns before policies reach production.
+- [Regal](https://www.openpolicyagent.org/projects/regal) - Linter for Rego policies with 50+ built-in rules covering correctness, style, and performance. Catches bugs and anti-patterns before policies reach production.
 - [tflint-ruleset-opa](https://github.com/terraform-linters/tflint-ruleset-opa) - TFLint plugin for writing custom compliance rules in Rego, bridging tflint's Terraform-native linting with OPA policy evaluation.
 - [Prancer Compliance Test](https://github.com/prancer-io/prancer-compliance-test) - Rego policy library with a dedicated `terraform/` ruleset for IaC scanning alongside AWS, Azure, GCP, and Kubernetes policies, designed for OPA and the Prancer platform. 💲 🆓
 
