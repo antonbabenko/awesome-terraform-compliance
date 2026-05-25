@@ -8,8 +8,9 @@ Please ensure your suggestion meets these criteria:
 
 - **Terraform/OpenTofu relevant** — The tool, framework, or resource must be usable
   with or directly relevant to Terraform/OpenTofu workflows.
-- **Actively maintained** — The project should have meaningful activity within the
-  last 12 months. Archived or abandoned projects will not be accepted.
+- **Actively maintained** — The project must have meaningful activity within the
+  last 12 months. Deprecated, archived, sunset, unmaintained, or abandoned projects
+  are not accepted, even well-known ones.
 - **Minimum maturity** — Open-source tools should have at least 20 GitHub stars and
   be at least 30 days old.
 - **Genuinely useful** — Only submit resources you have personally used or thoroughly
@@ -32,7 +33,6 @@ Use this exact format for new entries:
 - Add ` 🆓` after `💲` if a free tier is available.
 - Add ` 🇪🇺` for European regulation-specific resources.
 - Add ` 🏛️` for government/public sector-focused resources.
-- Add ` ⚠️` for archived/deprecated resources (only if they are well-known).
 
 ## Process
 

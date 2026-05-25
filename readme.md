@@ -1,6 +1,6 @@
 # Awesome Terraform Compliance [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
 
-Tools, frameworks, and resources for implementing compliance, security, and governance controls in Terraform and OpenTofu infrastructure.
+Compliance, security, and governance controls for Terraform and OpenTofu infrastructure.
 
 Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terraform-aws-modules](https://github.com/terraform-aws-modules) and [a few other Terraform projects](https://github.com/antonbabenko/terraform-aws-devops).
 
@@ -51,7 +51,6 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 - 💲 - Commercial/paid product or service
 - 🆓 - Free tier available (for commercial products)
 - 🏛️ - Government/public sector focused
-- ⚠️ - Archived, deprecated, or entering maintenance mode (no new features/customers)
 
 ## Policy Engines
 
@@ -72,7 +71,6 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 - [Checkov](https://www.checkov.io/) - Static analysis tool with 1,000+ built-in policies covering CIS, SOC 2, HIPAA, PCI DSS, and NIST benchmarks for Terraform, CloudFormation, Kubernetes, and more.
 - [Trivy](https://trivy.dev/) - Security scanner for IaC misconfigurations, vulnerabilities, secrets, and licenses with Terraform HCL and plan support (absorbed tfsec).
 - [KICS](https://kics.io/) - Open-source scanner by Checkmarx with 1,900+ queries across Terraform, Ansible, Docker, and Kubernetes.
-- [Terrascan](https://www.tenable.com/cloud-security/solutions/iac) - Static code analyzer supporting 500+ OPA/Rego policies across Terraform, Kubernetes, Helm, and CloudFormation. ⚠️
 - [Snyk IaC](https://snyk.io/product/infrastructure-as-code-security/) - IaC security testing integrated with the Snyk developer security platform. 💲 🆓
 - [SonarQube IaC Analysis](https://github.com/SonarSource/sonar-iac) - SonarSource's IaC static analyzer covering Terraform, CloudFormation, Kubernetes, and Docker with security and quality rules.
 - [Drogon](https://github.com/filipi86/drogonsec) - High-performance open-source scanner combining SAST, SCA, secret detection, and IaC analysis for Terraform and other formats, built for CI/CD pipelines.
@@ -129,7 +127,6 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 
 - [AWS Config Rules](https://docs.aws.amazon.com/config/latest/developerguide/managed-rules-by-aws-config.html) - Managed and custom rules evaluating AWS resource configurations against compliance baselines, deployable via Terraform.
 - [AWS Security Hub](https://aws.amazon.com/security-hub/) - Aggregated security and compliance findings across AWS accounts with CIS, PCI DSS, and NIST benchmarks.
-- [AWS Audit Manager](https://aws.amazon.com/audit-manager/) - Automated evidence collection mapped to compliance frameworks including SOC 2, PCI DSS, HIPAA, and GDPR. ⚠️
 - [AWS Control Tower](https://aws.amazon.com/controltower/) - Managed landing zone service with SCPs and Config rules as guardrails for multi-account AWS environments, configurable via Terraform.
 - [AWS Service Control Policies](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html) - Preventive governance policies at the AWS Organizations level, deployable via Terraform to enforce compliance boundaries across all accounts.
 - [AWS Control Tower Controls with Terraform](https://github.com/aws-samples/aws-control-tower-controls-terraform) - Official AWS sample showing how to implement and administer preventive, detective, and proactive Control Tower guardrails via Terraform IaC.
@@ -156,8 +153,6 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 ## Compliance Frameworks and Standards
 
 *Resources mapping compliance framework requirements to Terraform infrastructure controls.*
-
-- [AWS Audit Manager Framework Library](https://docs.aws.amazon.com/audit-manager/latest/userguide/framework-overviews.html) - Overview of all compliance frameworks supported by AWS Audit Manager, covering SOC 2, PCI DSS, HIPAA, ISO 27001, NIST 800-53, FedRAMP, GDPR, and more with AWS-native evidence collection. ⚠️
 
 ### CIS Benchmarks
 
@@ -198,7 +193,6 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 
 ### Drift Detection
 
-- [Driftctl](https://snyk.io/) - Detect infrastructure drift between Terraform state and actual cloud resource configurations. ⚠️
 - [Digger](https://digger.dev/) - Open-source Terraform CI/CD with drift detection capabilities.
 - [cloud-concierge](https://github.com/dragondrop-cloud/cloud-concierge) - Open-source tool that surfaces infrastructure drift, security findings, and cost estimates as pull requests against your Terraform codebase.
 - [DriftHound](https://github.com/treezio/drifthound) - Receives Terraform drift reports via API and provides a web dashboard with historical tracking, analytics, and Slack notifications.
@@ -212,7 +206,6 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 ### OPA/Rego Libraries
 
 - [Conftest](https://www.conftest.dev/) - Utility for writing tests against structured configuration data using OPA/Rego, widely used for Terraform plan validation.
-- [Fugue Regula Rules](https://github.com/fugue/regula) - Library of OPA/Rego rules for Terraform covering CIS benchmarks and custom compliance checks. ⚠️
 - [Regal](https://www.openpolicyagent.org/projects/regal) - Linter for Rego policies with 50+ built-in rules covering correctness, style, and performance. Catches bugs and anti-patterns before policies reach production.
 - [tflint-ruleset-opa](https://github.com/terraform-linters/tflint-ruleset-opa) - TFLint plugin for writing custom compliance rules in Rego, bridging tflint's Terraform-native linting with OPA policy evaluation.
 - [Prancer Compliance Test](https://github.com/prancer-io/prancer-compliance-test) - Rego policy library with a dedicated `terraform/` ruleset for IaC scanning alongside AWS, Azure, GCP, and Kubernetes policies, designed for OPA and the Prancer platform. 💲 🆓
@@ -220,7 +213,6 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 ### Sentinel Libraries
 
 - [terraform-sentinel-policies](https://github.com/hashicorp/terraform-sentinel-policies) - Example Sentinel policies for Terraform Cloud/Enterprise demonstrating common compliance patterns.
-- [Terraform Foundational Policies](https://github.com/hashicorp/terraform-foundational-policies-library) - HashiCorp's official Sentinel policy library covering CIS benchmarks for AWS, Azure, and GCP. ⚠️
 
 ### Guard Rule Libraries
 
@@ -315,7 +307,7 @@ This list is a curation, not a collection. Every entry must clear these gates:
 - Kubernetes-only policy tools with no Terraform integration path
 - Generic cloud security or GRC platforms without a Terraform/IaC-specific integration
 - Vendor blog posts or product documentation pages (learning resources must be genuinely educational, not marketing)
-- Unmaintained, archived, or abandoned projects (use ⚠️ for recent deprecations only; remove truly dead projects)
+- Deprecated, archived, sunset, unmaintained, or abandoned projects (rejected outright, not marked or kept)
 - Duplicate entries covering the same tool from different angles
 - Tools available only in a cloud provider console with no Terraform resource or provider support
 
