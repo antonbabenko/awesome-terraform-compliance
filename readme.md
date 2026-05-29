@@ -44,7 +44,6 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
   - [Courses](#courses)
   - [Newsletters](#newsletters)
 - [Related Awesome Lists](#related-awesome-lists)
-- [Curation Policy](#curation-policy)
 
 ## Legend
 
@@ -293,7 +292,13 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 - [awesome-opa](https://github.com/open-policy-agent/awesome-opa) - Open Policy Agent tools, frameworks, and articles.
 - [awesome-oscal](https://github.com/oscal-club/awesome-oscal) - OSCAL ecosystem tools and resources.
 
-## Curation Policy
+## Contributing
+
+Contributions welcome! Read the [contributing guidelines](contributing.md) first.
+
+## Footnotes
+
+### Curation Policy
 
 This list is a curation, not a collection. Every entry must clear these gates:
 
@@ -310,7 +315,3 @@ This list is a curation, not a collection. Every entry must clear these gates:
 - Deprecated, archived, sunset, unmaintained, or abandoned projects (rejected outright, not marked or kept)
 - Duplicate entries covering the same tool from different angles
 - Tools available only in a cloud provider console with no Terraform resource or provider support
-
-## Contributing
-
-Contributions welcome! Read the [contributing guidelines](contributing.md) first.
