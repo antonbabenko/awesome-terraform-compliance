@@ -169,7 +169,6 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 
 ### NIST and FedRAMP
 
-- [NIST SP 800-53 Controls](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) - Security and privacy control catalog (1,000+ controls) used as the baseline for FedRAMP, FISMA, and CMMC. Controls map to cloud resource configurations but the document itself is framework-only, not Terraform-specific. 🏛️
 - [OSCAL (Open Security Controls Assessment Language)](https://pages.nist.gov/OSCAL/) - Machine-readable compliance format by NIST for expressing security control implementations. 🏛️
 - [FedRAMP Authorization Boundary Guidance](https://demo.fedramp.gov/resources/documents/CSP_A_FedRAMP_Authorization_Boundary_Guidance.pdf) - FedRAMP guidance on defining cloud system boundaries, directly relevant to scoping Terraform-managed infrastructure for federal authorization. 🏛️
 
@@ -304,7 +303,7 @@ This list is a curation, not a collection. Every entry must clear these gates:
 
 **Accepted:**
 - Tools, modules, or resources directly usable in Terraform or OpenTofu workflows
-- Actively maintained (meaningful activity within 12 months; open-source projects need 20+ GitHub stars)
+- Actively maintained (meaningful activity within 12 months; open-source projects need 20+ GitHub stars, with rare exceptions for tools that fill a clear gap)
 - Solves a specific compliance, security, governance, or evidence problem at the IaC layer
 - Framework references must map controls to Terraform-implementable resources, not just describe the framework
 
