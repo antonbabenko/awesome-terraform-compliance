@@ -57,6 +57,7 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 
 - [Open Policy Agent (OPA)](https://www.openpolicyagent.org/) - General-purpose policy engine using Rego language, CNCF graduated project with extensive Terraform integration via Conftest and terraform-plan evaluation.
 - [HashiCorp Sentinel](https://www.hashicorp.com/sentinel) - Policy-as-code framework embedded in Terraform Cloud/Enterprise for enforcing compliance rules on runs. 💲
+- [Terraform policy (tfpolicy)](https://developer.hashicorp.com/terraform/policy) - HCL-based policy framework from HashiCorp that evaluates rules at three points in a run: provider and module install, plan, and apply. Ships a local CLI for testing policies before they reach HCP Terraform. Public beta. 💲
 - [Cloud Custodian](https://cloudcustodian.io/) - Rules engine for cloud resource management with Terraform plan evaluation and runtime policy enforcement. CNCF incubating project.
 
 ## IaC Security Scanners
@@ -222,7 +223,7 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 
 *Remote execution platforms for Terraform and OpenTofu with policy enforcement built into the run lifecycle. Unlike the CI/CD integrations below, these replace or wrap your pipeline entirely.*
 
-- [HCP Terraform and Terraform Enterprise](https://developer.hashicorp.com/terraform/cloud-docs) - HashiCorp's Terraform execution platform with native Sentinel and OPA policy enforcement on runs, audit logging, and team access controls, available as cloud-hosted (HCP Terraform) or self-hosted (Terraform Enterprise). 💲 🆓
+- [HCP Terraform and Terraform Enterprise](https://developer.hashicorp.com/terraform/cloud-docs) - HashiCorp's Terraform execution platform with native Sentinel, OPA, and Terraform policy enforcement on runs, audit logging, and team access controls, available as cloud-hosted (HCP Terraform) or self-hosted (Terraform Enterprise). 💲 🆓
 - [Spacelift](https://spacelift.io/) - Terraform and OpenTofu automation platform with built-in OPA policy evaluation on plans, drift detection, and custom policy frameworks. 💲 🆓
 - [env0](https://www.env0.com/) - Terraform and OpenTofu automation platform with OPA and Checkov policy integration, cost governance, and environment lifecycle management. 💲 🆓
 - [Scalr](https://scalr.com/) - Terraform automation platform with OPA policy enforcement and hierarchical policy inheritance across organizations, accounts, and environments. 💲 🆓
