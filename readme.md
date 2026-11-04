@@ -246,6 +246,7 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 - [trunk.io](https://trunk.io/) - Developer tooling platform with Terraform linter orchestration including Checkov, tflint, and Trivy. 💲 🆓
 - [Cloud Security Plugin](https://github.com/NordCoderd/cloud-security-plugin) - JetBrains IDE plugin (IntelliJ, PyCharm, etc.) for IaC security scanning including Terraform, enabling shift-left detection in the editor.
 - [Terraform Risk Assessor](https://github.com/Liam-Johnston/terraform-risk-assessor) - GitHub Action that analyses Terraform plan JSON and comments risk levels on pull requests.
+- [Kumoss](https://github.com/InditexTech/kumoss) - Open-source, self-hosted AI assistant that turns plain-language requests into plan-validated Terraform and OpenTofu pull requests, with an LLM audit of each plan against organization-defined rules and an admin approval lock for non-compliant or high-impact changes.
 
 ## Learning Resources
 
