@@ -234,7 +234,6 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 - [Terrapod](https://github.com/mattrobinsonsre/terrapod) - Open-source, self-hosted Terraform and OpenTofu automation platform with governance controls, drift detection, RBAC, and HCP Terraform API compatibility.
 - [ops0](https://ops0.com/) - Governance-first Terraform and OpenTofu platform with OPA and Checkov policy enforcement, drift detection, and compliance mapping to 27+ frameworks including SOC 2, HIPAA, PCI DSS, and CIS. 💲 🆓
 - [Terramate](https://terramate.io/) - Open-source IaC orchestration and code generation engine for Terraform, OpenTofu, and Terragrunt stacks with change detection, policy hooks, and graph-based run ordering. Optional Terramate Cloud adds drift detection, observability, and misconfiguration reporting. 💲 🆓
-- [Kumoss](https://github.com/InditexTech/kumoss) - Open-source, self-hosted AI assistant that turns plain-language requests into plan-validated Terraform and OpenTofu pull requests on GitHub, GitLab, or Azure DevOps, audits each plan against organization-defined compliance rules, locks high-impact or non-compliant changes until an admin approves, and reconciles drift in the same pull request.
 
 ## CI/CD and Platform Integration
 
@@ -247,6 +246,7 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 - [trunk.io](https://trunk.io/) - Developer tooling platform with Terraform linter orchestration including Checkov, tflint, and Trivy. 💲 🆓
 - [Cloud Security Plugin](https://github.com/NordCoderd/cloud-security-plugin) - JetBrains IDE plugin (IntelliJ, PyCharm, etc.) for IaC security scanning including Terraform, enabling shift-left detection in the editor.
 - [Terraform Risk Assessor](https://github.com/Liam-Johnston/terraform-risk-assessor) - GitHub Action that analyses Terraform plan JSON and comments risk levels on pull requests.
+- [Kumoss](https://github.com/InditexTech/kumoss) - Open-source, self-hosted AI assistant that turns plain-language requests into plan-validated Terraform and OpenTofu pull requests, with an LLM audit of each plan against organization-defined rules and an admin approval lock for non-compliant or high-impact changes.
 
 ## Learning Resources
 
