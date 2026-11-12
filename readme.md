@@ -234,6 +234,7 @@ Maintained by [Anton Babenko](https://github.com/antonbabenko), creator of [terr
 - [Terrapod](https://github.com/mattrobinsonsre/terrapod) - Open-source, self-hosted Terraform and OpenTofu automation platform with governance controls, drift detection, RBAC, and HCP Terraform API compatibility.
 - [ops0](https://ops0.com/) - Governance-first Terraform and OpenTofu platform with OPA and Checkov policy enforcement, drift detection, and compliance mapping to 27+ frameworks including SOC 2, HIPAA, PCI DSS, and CIS. 💲 🆓
 - [Terramate](https://terramate.io/) - Open-source IaC orchestration and code generation engine for Terraform, OpenTofu, and Terragrunt stacks with change detection, policy hooks, and graph-based run ordering. Optional Terramate Cloud adds drift detection, observability, and misconfiguration reporting. 💲 🆓
+- [Buddy](https://buddy.works/docs/terraform) - Pipeline platform with native Terraform and OpenTofu Plan, Apply, and Drift Detection actions, where Apply runs only the approved plan, approval can be limited to named people or require someone other than the run's author, and each run records who started, approved, and applied it. 💲 🆓
 
 ## CI/CD and Platform Integration
 
